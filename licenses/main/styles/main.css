@@ -18,6 +18,6 @@ a.image:hover {cursor: pointer; color: #999999;}
 img.logo-mlug, img.logo-mhs, img.logo-lvee {position: relative; border: 0; padding: 0; margin: 0 2% 0 2%; top: 0; bottom: 0; left: 0; right: 0; height: 128px; width: 128px; background-image: none; background-color: none; background-repeat: no-repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 img.logo-mlug:hover, img.logo-mhs:hover, img.logo-lvee:hover {cursor: pointer;}
 * HTML img.logo-mlug:hover, img.logo-mhs:hover, img.logo-lvee:hover {cursor: hand;}
-img.logo-mlug {height: 108px; width: 88px;}
-img.logo-mhs {height: 104px; width: 104px;}
-img.logo-lvee {height: 108px; width: 128px; left: -8px;}
+img.logo-mlug {height: 108px; width: 88px; left: 12px;}
+img.logo-mhs {height: 104px; width: 104px; left: 8px;}
+img.logo-lvee {height: 108px; width: 128px;}
