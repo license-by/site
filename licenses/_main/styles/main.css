@@ -1,5 +1,17 @@
 
 @font-face {
+    font-family: 'HelveticaNeuecyr';
+    src: url('../fonts/HelveticaNeuecyr-light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HelveticaNeuecyr-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/HelveticaNeuecyr-light.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/HelveticaNeuecyr-light.woff2') format('woff2'), /* Modern Browsers */
+        url('../fonts/HelveticaNeuecyr-light.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/HelveticaNeuecyr-light.svg#Bizon') format('svg'); /* Legacy iOS */
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
     font-family: 'Bizon';
     src: url('../fonts/Bizon_Regular.eot'); /* IE9 Compat Modes */
     src: url('../fonts/Bizon_Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -11,28 +23,29 @@
     font-style:normal;
 }
 
+
 html, body {text-align: center; align: center; overflow: auto; min-width: 400px; min-height: 800px; position: relative; border: 0; padding: 0; margin: 0 auto 0 auto; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; background-image: none; background-color: #ffffff; background-repeat: repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
-a, a:active, a:focus, a:hover, a:visited, a.link:hover, a.link:visited, a.link:active, a.link:focus, a.link, p {border: 0; padding: 0; margin: 0; font-family: Helvetica, Arial; color: #0066cc; font-size: 100%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+a, a:active, a:focus, a:hover, a:visited, a.link:hover, a.link:visited, a.link:active, a.link:focus, a.link, p {border: 0; padding: 0; margin: 0; font-family: HelveticaNeuecyr, Helvetica, Arial; color: #0066cc; font-size: 100%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 p {color: #333333;}
 a:hover, a.link:hover {cursor: pointer;}
 * HTML a:hover, a.link:hover {cursor: hand;}
 a.link:hover {color: #999999;}
-h1, h2, h3 {font-family: Helvetica, Arial; color: #666666;}
+h1, h2, h3 {font-family: HelveticaNeuecyr, Helvetica, Arial; color: #666666;}
 
-a.lang:hover, a.lang:visited, a.lang:active, a.lang:focus, a.lang, a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {border: 0; padding: 0; margin: 0 1% 0 1%; font-family: Helvetica, Arial; color: #009933; font-size: 80%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+a.lang:hover, a.lang:visited, a.lang:active, a.lang:focus, a.lang, a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {border: 0; padding: 0; margin: 0 1% 0 1%; font-family: HelveticaNeuecyr, Helvetica, Arial; color: #009933; font-size: 80%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {color: #333333;}
 a.lang:hover {cursor: pointer; color: #999999;}
 * HTML a.lang:hover {cursor: hand;}
 
-a.ver:hover, a.ver:visited, a.ver:active, a.ver:focus, a.ver, p.ver {border: 0; padding: 0; margin: 0 1% 0 1%; font-family: Helvetica, Arial; color: #0066cc; font-size: 120%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+a.ver:hover, a.ver:visited, a.ver:active, a.ver:focus, a.ver, p.ver {border: 0; padding: 0; margin: 0 1% 0 1%; font-family: HelveticaNeuecyr, Helvetica, Arial; color: #0066cc; font-size: 120%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.ver:hover {cursor: pointer; color: #999999;}
 * HTML a.ver:hover {cursor: hand;}
 
-a.lic:hover, a.lic:visited, a.lic:active, a.lic:focus, a.lic, p.lic, a.nlic:hover, a.nlic:visited, a.nlic:active, a.nlic:focus, a.nlic, p.nlic {transform: rotate(-10deg); -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -o-transform: rotate(-10deg); -ms-transform: rotate(-10deg); border: 0; padding: 0; margin: 0 1% 0 1%; font-family: Bizon, Helvetica, Arial; color: #009933; font-size: 160%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+a.lic:hover, a.lic:visited, a.lic:active, a.lic:focus, a.lic, p.lic, a.nlic:hover, a.nlic:visited, a.nlic:active, a.nlic:focus, a.nlic, p.nlic {transform: rotate(-10deg); -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -o-transform: rotate(-10deg); -ms-transform: rotate(-10deg); border: 0; padding: 0; margin: 0 1% 0 1%; font-family: Bizon, HelveticaNeuecyr, Helvetica, Arial; color: #009933; font-size: 160%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.nlic:hover, a.nlic:visited, a.nlic:active, a.nlic:focus, a.nlic, p.nlic {color: #cc0033;}
 
 //line-height: 128px;
-a.image:hover, a.image:visited, a.image:active, a.image:focus, a.image {height: 128px; width: 128px; line-height: 128px; border: 0; padding: 0; top: 0; bottom: 0; left: 0; right: 0; margin: 0; font-family: Helvetica, Arial; font-size: 100%; color: #009933; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+a.image:hover, a.image:visited, a.image:active, a.image:focus, a.image {height: 128px; width: 128px; line-height: 128px; border: 0; padding: 0; top: 0; bottom: 0; left: 0; right: 0; margin: 0; font-family: HelveticaNeuecyr, Helvetica, Arial; font-size: 100%; color: #009933; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.image:hover {cursor: pointer; color: #999999;}
 * HTML a.image:hover {cursor: hand;}
 img.logo-mlug, img.logo-mhs, img.logo-lvee {position: relative; border: 0; padding: 0; margin: 0 2% 0 2%; top: 0; bottom: 0; left: 0; right: 0; height: 128px; width: 128px; background-image: none; background-color: none; background-repeat: no-repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
