@@ -40,6 +40,7 @@ a.lang:hover {cursor: pointer; color: #999999;}
 a.ver:hover, a.ver:visited, a.ver:active, a.ver:focus, a.ver, p.ver {white-space: nowrap; border: 0; padding: 0; margin: 0 1% 0 1%; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 120%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.ver:hover {cursor: pointer; color: #999999;}
 * HTML a.ver:hover {cursor: hand;}
+p.ver {white-space: normal;}
 
 a.lic:hover, a.lic:visited, a.lic:active, a.lic:focus, a.lic, p.lic, a.nlic:hover, a.nlic:visited, a.nlic:active, a.nlic:focus, a.nlic, p.nlic {transform: rotate(-10deg); -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -o-transform: rotate(-10deg); -ms-transform: rotate(-10deg); border: 0; padding: 0; margin: 0; font-family: Bizon, HelveticaNeueCyrillic, Helvetica, Arial; color: #009933; font-size: 140%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.nlic:hover, a.nlic:visited, a.nlic:active, a.nlic:focus, a.nlic, p.nlic {transform: rotate(10deg); -webkit-transform: rotate(10deg); -moz-transform: rotate(10deg); -o-transform: rotate(10deg); -ms-transform: rotate(10deg); color: #cc0033;}
