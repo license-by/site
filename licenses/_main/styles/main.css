@@ -24,7 +24,7 @@
 }
 
 
-html, body {text-align: center; align: center; overflow: auto; min-width: 400px; min-height: 800px; position: relative; border: 0; padding: 0; margin: 0 auto 0 auto; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; background-image: none; background-color: #ffffff; background-repeat: repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+html, body {text-align: center; align: center; overflow: auto; min-width: 400px; min-height: 800px; position: relative; border: 0; padding: 0; margin: 0 auto 0 auto; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; background-image: url("../images/bg.png"); background-color: #ffffff; background-repeat: repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a, a:active, a:focus, a:hover, a:visited, a.link:hover, a.link:visited, a.link:active, a.link:focus, a.link, p {border: 0; padding: 0; margin: 0; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 100%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 p {color: #333333;}
 a:hover, a.link:hover {cursor: pointer;}
@@ -37,7 +37,7 @@ a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {
 a.lang:hover {cursor: pointer; color: #999999;}
 * HTML a.lang:hover {cursor: hand;}
 
-a.ver:hover, a.ver:visited, a.ver:active, a.ver:focus, a.ver, p.ver {border: 0; padding: 0; margin: 0 1% 0 1%; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 120%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+a.ver:hover, a.ver:visited, a.ver:active, a.ver:focus, a.ver, p.ver {white-space: nowrap; border: 0; padding: 0; margin: 0 1% 0 1%; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 120%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.ver:hover {cursor: pointer; color: #999999;}
 * HTML a.ver:hover {cursor: hand;}
 
@@ -52,5 +52,5 @@ img.logo-mlug, img.logo-mhs, img.logo-lvee {position: relative; border: 0; paddi
 img.logo-mlug:hover, img.logo-mhs:hover, img.logo-lvee:hover {cursor: pointer;}
 * HTML img.logo-mlug:hover, img.logo-mhs:hover, img.logo-lvee:hover {cursor: hand;}
 img.logo-mlug {height: 108px; width: 88px; left: 12px;}
-img.logo-mhs {height: 104px; width: 104px; left: 8px;}
-img.logo-lvee {height: 108px; width: 128px;}
+img.logo-mhs {height: 104px; width: 104px; left: 8px; margin: 0 2% 0 0;}
+img.logo-lvee {height: 108px; width: 128px; margin: 0 0 0 2%;}
