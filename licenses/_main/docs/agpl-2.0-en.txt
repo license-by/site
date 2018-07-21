@@ -1,0 +1,1 @@
+../../agpl/docs/agpl-2.0-en.txt

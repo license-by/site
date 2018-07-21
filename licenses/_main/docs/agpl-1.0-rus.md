@@ -1,1 +1,0 @@
-../../agpl/docs/agpl-1.0-rus.md

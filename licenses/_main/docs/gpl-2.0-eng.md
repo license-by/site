@@ -1,1 +1,0 @@
-../../gpl/docs/gpl-2.0-eng.md

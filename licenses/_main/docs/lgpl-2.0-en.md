@@ -1,0 +1,1 @@
+../../lgpl/docs/lgpl-2.0-en.md
