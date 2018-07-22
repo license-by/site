@@ -1,6 +1,6 @@
 {
-    "name": "IT LICENSE",
-    "short_name": "IT LICENSE",
+    "name": "IT Licenses",
+    "short_name": "IT Licenses",
     "icons": [
         {
             "src": "/android-chrome-36x36.png",
@@ -50,6 +50,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://license.by",
+    "start_url": "https://license.by/",
     "display": "standalone"
 }
