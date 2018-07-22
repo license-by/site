@@ -1,3 +1,3 @@
-img.logo-bsd {position: relative; border: 0; padding: 0; margin: 0; top: 0; bottom: 0; left: 0; right: 0; height: 64px; width: 137px; background-image: none; background-color: none; background-repeat: no-repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+img.logo-bsd {position: relative; border: 0; padding: 0; margin: 0; top: 0; bottom: 0; left: 0; right: 0; height: 64px; width: 137px; background-image: none; background-color: none; background-repeat: no-repeat no-repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 img.logo-bsd:hover {cursor: pointer;}
 * HTML img.logo-bsd:hover {cursor: hand;}
